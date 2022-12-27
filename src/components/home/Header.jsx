@@ -14,18 +14,18 @@ const Header = () => {
   return (
     <div className="header__container">
       <div className="header">
-        <div>
+        <p>
           <FaPhoneAlt className="header__icon" />
           (678) 345-3456
-        </div>
-        <div>
+        </p>
+        <p>
           <FaMap className="header__icon" />
           380 Albert St, Melbourne, Australia
-        </div>
-        <div>
+        </p>
+        <p>
           <FaRegEnvelope className="header__icon" />
-          envato@mail.com
-        </div>
+          envato@gmail.com
+        </p>
         <div className="social">
           <a href="#">
             <FaFacebookF className="social__icons" />
@@ -36,7 +36,7 @@ const Header = () => {
           <a href="#">
             <FaWhatsapp className="social__icons" />
           </a>
-          <a href="#">
+          <a href="http://">
             <FaLinkedinIn className="social__icons" />
           </a>
         </div>
