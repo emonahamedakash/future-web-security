@@ -1,29 +1,66 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import "./Home.css";
 import Logo from "../../assets/logo.png";
 import { FaSearch } from "react-icons/fa";
 
 const NavigationBar = () => {
+  let activeStyle = {
+    borderBottom: "3px solid #7114EF",
+  };
+
+  let activeClassName = "underline";
+
   return (
     <div className="navigation-container">
       <div className="logo">
-        <img src={Logo} alt="logo" />
+        <NavLink
+          to="/"
+          style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        >
+          <img src={Logo} alt="logo" />
+        </NavLink>
       </div>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <NavLink
+            to="/"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            Home
+          </NavLink>
         </li>
         <li>
-          <a href="#">About</a>
+          <NavLink
+            to="/about"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <a href="#">Services</a>
+          <NavLink
+            to="/services"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            Services
+          </NavLink>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <NavLink
+            to="/contact"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            Contact
+          </NavLink>
         </li>
         <li>
-          <a href="#">Blog</a>
+          <NavLink
+            to="/blog"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}
+          >
+            Blog
+          </NavLink>
         </li>
       </ul>
       <div className="search">

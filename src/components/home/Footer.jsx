@@ -75,9 +75,11 @@ const Footer = () => {
         height="15"
         width="15"
         color="white"
+        smooth
         style={{
           backgroundColor: "#6224F0",
           borderRadius: "0",
+          fontWeight: "bolder",
         }}
       />
     </div>

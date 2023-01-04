@@ -1,0 +1,37 @@
+.section-heading{
+    font-size: 42px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none solid rgb(46, 45, 45)
+}
+.sub-heading{
+    color: #7114EF;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 15px;
+    height: 46px;
+    max-width: 300px;
+    padding: 0 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.button-1 {
+    background: rgb(167, 53, 168);
+    background: linear-gradient(270deg, rgba(120, 0, 170, 100.975012) 5%, rgba(47, 90, 245, 1) 100%);
+    width: 130px;
+    height: 45px;
+    color: white;
+    border-radius: 30px;
+    transition-property: background;
+    transition-duration: 2x;
+    outline: none;
+    border: none;
+}
+
+.button-1:hover {
+    background: linear-gradient(90deg, rgba(120, 0, 170, 100.975012) 5%, rgba(47, 90, 245, 1) 100%);
+}
