@@ -10,6 +10,7 @@ import Footer from "./components/home/Footer";
 import Header from "./components/home/Header";
 import Home from "./components/home/Home";
 import NavigationBar from "./components/home/NavigationBar";
+import ServiceDetails from "./components/ServiceDetails";
 import Services from "./components/Services";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/servicedetails" element={<ServiceDetails />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>

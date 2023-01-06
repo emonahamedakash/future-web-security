@@ -1,7 +1,12 @@
 import React from "react";
+import Maintenance from "./Maintenance";
 
 const Blog = () => {
-  return <div>Blog</div>;
+  return (
+    <div>
+      <Maintenance />
+    </div>
+  );
 };
 
 export default Blog;

@@ -16,15 +16,15 @@ const Header = () => {
       <div className="header">
         <p>
           <FaPhoneAlt className="header__icon" />
-          (678) 345-3456
+          +8801618253629
         </p>
         <p>
           <FaMap className="header__icon" />
-          380 Albert St, Melbourne, Australia
+          North Jatrabari, Dhaka-1208
         </p>
         <p>
           <FaRegEnvelope className="header__icon" />
-          envato@gmail.com
+          futurewebs279@gmail.com
         </p>
         <div className="social">
           <a href="#">

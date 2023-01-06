@@ -1,0 +1,39 @@
+.service-details> p{
+    text-align: justify;
+}
+.service-details> h1{
+    font-weight: bold;
+    text-align: center;
+}
+.why{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.why div{
+    width: 40%;
+    background-color: black;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+.why h4{
+    font-weight: bold;
+}
+.why p{
+    margin-bottom: 0;
+}
+
+.tag {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.tag img {
+    height: 224px;
+    width: 379px;
+}
+.tag>div{
+    width: 45%;
+    text-align: right;
+}

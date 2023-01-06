@@ -1,0 +1,42 @@
+.left-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 40px;
+}
+.left-text>div{
+    background-color: #F2F6FB;
+    width: 370px;
+    height: 170px;
+    padding: 20px 0 0 30px;
+}
+.form-part{
+    display: flex;
+}
+.form-part form{
+    width: 770px;
+    height: 680px;
+    padding: 94px 100px 100px 100px;
+    background-color: #F2F6FB;
+
+}
+.form-part form> div{
+    display: flex;
+    justify-content: space-between;
+}
+.form-part form input{
+    padding: 6px 18px;
+    border: none;
+    outline: none;
+}
+.form-part form input:focus{
+    border:1px solid  #0F67F6;
+}
+.form-part form textarea{
+    padding: 6px 18px;
+    border: none;
+    outline: none;
+}
+.form-part form textarea:focus{
+    border:1px solid  #0F67F6;
+}

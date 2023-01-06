@@ -14,7 +14,9 @@ import { FaRegPaperPlane, FaLocationArrow, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
   const galleryPictures = [g1, g2, g3, g4, g5, g6];
-
+  let newDate = new Date();
+  let year = newDate.getFullYear();
+  console.log(year);
   return (
     <div
       className="footer"
@@ -47,12 +49,13 @@ const Footer = () => {
           <h3>Official Info</h3>
           <p>
             <FaLocationArrow />
-            <>&nbsp;</> 30 Commercial Road Fratton, Australia
+            <>&nbsp;</> 4th floor, Ayatonnesa Vila, 1/12/3, North Jatrabari,
+            Dhaka-1208
           </p>
           <p>
             <FaPhone />
             <>&nbsp;</>
-            1-888-452-1505
+            +8801618253629
           </p>
         </div>
         <div className="gallery">
@@ -69,7 +72,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="copyright">
-        © 2022 All rights reserved By FutureWebSecurity.
+        © {year} All rights reserved By FutureWebSecurity.
       </p>
       <ScrollToTop
         height="15"
